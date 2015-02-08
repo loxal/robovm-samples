@@ -19,8 +19,6 @@
 
 package org.robovm.samples.adventure.util;
 
-import java.io.File;
-
 import org.robovm.apple.coregraphics.CGBitmapContext;
 import org.robovm.apple.coregraphics.CGBitmapInfo;
 import org.robovm.apple.coregraphics.CGColorSpace;
@@ -40,7 +38,8 @@ import org.robovm.apple.uikit.UIImage;
 import org.robovm.rt.bro.Struct;
 import org.robovm.rt.bro.annotation.StructMember;
 import org.robovm.rt.bro.ptr.IntPtr;
-import org.robovm.rt.bro.ptr.VoidPtr;
+
+import java.io.File;
 
 public class APAUtils {
 
