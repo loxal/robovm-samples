@@ -16,6 +16,12 @@
   <packaging>jar</packaging>
 
   <dependencies>
+      <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-client</artifactId>
+          <version>2.15</version>
+          <scope>compile</scope>
+      </dependency>
     <dependency>
       <groupId>org.robovm</groupId>
       <artifactId>ContractR-core</artifactId>
@@ -39,7 +45,7 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-      </plugin>      
+      </plugin>
     </plugins>
   </build>
 

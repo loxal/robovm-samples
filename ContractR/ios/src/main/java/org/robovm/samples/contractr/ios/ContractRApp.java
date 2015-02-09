@@ -67,6 +67,9 @@ public class ContractRApp extends UIApplicationDelegateAdapter {
     @Override
     public boolean didFinishLaunching(UIApplication application,
             UIApplicationLaunchOptions launchOptions) {
+	    javax.ws.rs.client.Client c = javax.ws.rs.client.ClientBuilder.newClient();
+	    javax.ws.rs.core.Response response = c.target("http://www.example.com").request().get();
+	    System.out.println("response.toString() = " + response.toString());
 
         /*
          * Prevent this Java UIApplicationDelegate instance and every Java

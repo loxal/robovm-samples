@@ -11,6 +11,7 @@
   <target>ios</target>
   <iosInfoPList>Info.plist.xml</iosInfoPList>
   <forceLinkClasses>
+    <pattern>org.glassfish.jersey.client.**</pattern>
     <pattern>SQLite.JDBCDriver</pattern>
     <pattern>SQLite.JDBC2z.JDBCConnection</pattern>
   </forceLinkClasses>
