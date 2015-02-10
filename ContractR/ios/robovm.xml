@@ -12,6 +12,28 @@
   <iosInfoPList>Info.plist.xml</iosInfoPList>
   <forceLinkClasses>
     <pattern>org.glassfish.jersey.client.**</pattern>
+    <pattern>org.glassfish.jersey.core.**</pattern>
+    <pattern>javax.ws.rs.**</pattern>
+    <pattern>org.glassfish.hk2.**</pattern>
+    <pattern>org.glassfish.hk2.external.**</pattern>
+    <pattern>java.util.logging.**</pattern>
+    <pattern>org.glassfish.jersey.internal.RuntimeDelegateImpl</pattern>
+    <pattern>org.glassfish.hk2.**</pattern>
+    <pattern>javax.**</pattern>
+    <pattern>java.lang.**</pattern>
+    <pattern>org.glassfish.jersey.internal.RuntimeDelegateImpl</pattern>
+    <pattern>org.glassfish.jersey.internal.**</pattern>
+    <pattern>javax.ws.rs.ext.**</pattern>
+    <pattern>javax.ws.rs.core.**</pattern>
+    <pattern>org.glassfish.jersey.client.**</pattern>
+    <pattern>javax.annotation.**</pattern>
+    <pattern>org.osgi.**</pattern>
+    <pattern>org.osgi.core.**</pattern>
+    <pattern>javax.xml.bind.**</pattern>
+    <pattern>org.glassfish.jersey.bundles.repackaged.**</pattern>
+    <pattern>org.glassfish.hk2.external.**</pattern>
+    <pattern>javax.inject.**</pattern>
+    <pattern>org.glassfish.hk2.**</pattern>
     <pattern>SQLite.JDBCDriver</pattern>
     <pattern>SQLite.JDBC2z.JDBCConnection</pattern>
   </forceLinkClasses>
